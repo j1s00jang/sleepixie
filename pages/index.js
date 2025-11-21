@@ -9,7 +9,6 @@ import ThreeButton from "@/components/ui/ThreeButton";
 import { useRouter } from "next/navigation";
 import styles from "@/styles/SupplementPage.module.css";
 import TimeRing from "@/components/feature/TimeRing";
-import "@/styles/globals.css";
 import PrimaryButton from "@/components/ui/Button";
 import SleepSessionModal from "@/components/feature/SleepSessionModal";
 import SleepReviewModal from "@/components/feature/SleepReviewModal";
@@ -82,7 +81,10 @@ export default function AchievementPage() {
           <br />
           <span className="greetingSub">
             Did you sleep well?{" "}
-            <span role="img" aria-label="sleep">
+            <span
+              role="img"
+              aria-label="sleep"
+            >
               😴
             </span>
           </span>
@@ -107,7 +109,10 @@ export default function AchievementPage() {
           onClick={handleSleepNow}
         />
         {/* Sleep Streak Rings */}
-        <div className="streakRings" style={{ width: 350 }}>
+        <div
+          className="streakRings"
+          style={{ width: 350 }}
+        >
           <Image
             src="/images/sleepstreakrings.png"
             alt="Sleep Streak Rings"
