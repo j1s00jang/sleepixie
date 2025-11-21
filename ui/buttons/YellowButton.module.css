@@ -1,0 +1,22 @@
+.buttonContainer {
+    width: 350px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background-color: transparent;
+    color: var(--Day---Primary-2, #d3d3d3);
+    text-align: center;
+    font-family: "Teachers", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 1px solid #ffcb3e;
+    transition: background-color 0.5s linear;
+}
+
+.buttonContainer:hover {
+    color: var(--night-dark-background, #191b21);
+    text-align: center;
+    background-color: #ffcb3e;
+}

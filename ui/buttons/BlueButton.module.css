@@ -1,0 +1,28 @@
+.buttonContainer {
+    width: 350px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background-color: transparent;
+    color: var(--Night---Primary-02, #d3d3d3);
+    font-family: "Teachers", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    line-height: normal;
+    border: 1px solid #80a7ff;
+    transition: all 0.5s linear;
+    cursor: pointer;
+}
+
+.buttonContainer:hover {
+    background-color: #80a7ff;
+    color: #191b21;
+}
+
+.buttonContainer.selected {
+    background-color: #80a7ff;
+    color: #191b21;
+    border-color: #80a7ff;
+}

@@ -1,0 +1,104 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.95);
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalContent {
+  background: none;
+  width: 402px;
+  min-height: 874px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.sleepTitle {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 400;
+  margin-top: 80px;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.sleepMsg {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 100;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.ambientLabel {
+  color: #fff;
+  font-size: 14px;
+  opacity: 0.7;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.ambientButton {
+  width: 350px;
+  height: 55px;
+  background: #23242a;
+  color: #fff;
+  border: 1px solid #ffcb3e;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  cursor: pointer;
+}
+
+.arrow {
+  font-size: 32px;
+  color: #ffcb3e;
+}
+
+.screenMsg {
+  color: #fff;
+  font-size: 16px;
+  opacity: 0.7;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.finishButton {
+  width: 350px;
+  height: 55px;
+  background: none;
+  color: #fff;
+  border: 1px solid #80a7ff;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+
+.cancelButton {
+  width: 350px;
+  height: 55px;
+  background: none;
+  color: #ffcb3e;
+  border: 1px solid #ffcb3e;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 16px;
+  cursor: pointer;
+}

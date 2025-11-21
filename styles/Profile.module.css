@@ -1,0 +1,126 @@
+.mobileContainer {
+  width: 402px;
+  height: 100vh;
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+  background: #191b21;
+  display: flex;
+  flex-direction: column;
+}
+
+.screen {
+  background: #191b21;
+  width: 402px;
+  height: calc(100vh - 80px);
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 1rem 0.5rem 0.5rem 0.5rem;
+  font-family: "Teachers", "SF Pro", Arial, sans-serif;
+  color: #e8e8e8;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.profileCard {
+  background: #292e37;
+  border-radius: 12px;
+  align-items: center;
+  width: 370px;
+  height: 253px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profileTitle {
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 7rem;
+}
+
+.profileName {
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 0.2rem;
+}
+
+.section {
+  background: #292e37;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  box-shadow: 1px 1px 1px #ffcb3e;
+  overflow: hidden;
+  width: 370px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.9rem 1rem;
+  border-bottom: 1px solid #191b21;
+  font-size: 20px;
+}
+
+.row:last-child {
+  border-bottom: none;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 48px;
+  height: 26px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #e5e5e5;
+  border-radius: 26px;
+  transition: 0.4s;
+}
+
+.switch input:checked + .slider {
+  background-color: #ffcb3e;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom: 3px;
+  background-color: #fff;
+  border-radius: 50%;
+  transition: 0.4s;
+}
+
+.switch input:checked + .slider:before {
+  transform: translateX(22px);
+}
+
+.version {
+  text-align: center;
+  color: #e8e8e8;
+  font-size: 13px;
+  margin-top: 1.5rem;
+}

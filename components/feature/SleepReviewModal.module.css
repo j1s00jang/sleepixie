@@ -1,0 +1,78 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.98);
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalContent {
+  background: none;
+  width: 402px;
+  min-height: 874px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.reviewTitle {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 400;
+  margin-top: 48px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.timeRingWrapper {
+  position: relative;
+  width: 350px;
+  height: 350px;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reviewCenterText {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  pointer-events: none;
+}
+
+.reviewTimes {
+  font-size: 16px;
+  margin-top: 8px;
+  color: #fff;
+  opacity: 0.8;
+}
+
+.closeButton {
+  width: 350px;
+  height: 55px;
+  background: #ffcb3e;
+  color: #23242a;
+  border: none;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 32px;
+  cursor: pointer;
+}

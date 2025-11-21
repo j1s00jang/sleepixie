@@ -1,0 +1,40 @@
+{
+  "supplements": [
+    {
+      "id": 1,
+      "name": "Melatonin",
+      "image": "/data/supplements_img/melatonin.png",
+      "frequency": 0
+    },
+    {
+      "id": 2,
+      "name": "Magnesium",
+      "image": "/data/supplements_img/magnesium.png",
+      "frequency": 0
+    },
+    {
+      "id": 3,
+      "name": "L-Theanine",
+      "image": "/data/supplements_img/l-theanine.png",
+      "frequency": 0
+    },
+    {
+      "id": 4,
+      "name": "Valerian Root",
+      "image": "/data/supplements_img/valerian-root.png",
+      "frequency": 0
+    },
+    {
+      "id": 5,
+      "name": "Chamomile",
+      "image": "/data/supplements_img/chamomile.png",
+      "frequency": 0
+    },
+    {
+      "id": 6,
+      "name": "Lavender",
+      "image": "/data/supplements_img/lavender.png",
+      "frequency": 0
+    }
+  ]
+}

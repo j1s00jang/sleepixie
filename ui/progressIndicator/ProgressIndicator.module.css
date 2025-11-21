@@ -1,0 +1,24 @@
+.container {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.steps {
+    display: flex;
+    gap: 1px;
+    align-items: center;
+}
+
+.step {
+    width: 130px;
+    height: 5px;
+    border-radius: 0%;
+    background-color: #575757;
+    transition: background-color 0.3s ease;
+}
+
+.step.active {
+    background-color: #ffcb3e;
+}

@@ -1,0 +1,7 @@
+.searchContainer {
+  width: 100%;
+  max-width: 370px;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}

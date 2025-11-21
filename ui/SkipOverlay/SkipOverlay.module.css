@@ -1,0 +1,50 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #353535;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal {
+    background-color: #191b21;
+    padding: 3rem;
+    border-radius: 30px;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.title {
+    color: #ffcb3e;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.message {
+    color: #d3d3d3;
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+    line-height: 1.2;
+}
+
+.buttonContainer {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.buttonContainer + .buttonContainer {
+    margin-top: 1rem;
+}
+
+.buttonWrapper {
+    margin-top: auto;
+    padding-top: 4rem;
+}

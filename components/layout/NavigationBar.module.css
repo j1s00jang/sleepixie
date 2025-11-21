@@ -1,0 +1,71 @@
+.navigationBar {
+  /* display: inline-flex; */
+  display: flex;
+  flex-direction: row;
+  /* width: 402px;
+      min-height: 84px; */
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #292e37;
+  /* margin-top: 50px; */
+  padding: 15px 37px 25px 37px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 10;
+  /* gap: 25px; */
+}
+
+.pageName,
+.pageName2,
+.pageName3 {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  text-align: center;
+  color: #e8e8e8;
+  margin: 0;
+  transition: color 0.2s ease;
+  text-decoration: none;
+}
+
+.navigationBarSleep {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+}
+
+.navigationBarAchievement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+}
+
+.navigationBarProfile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Link {
+  text-decoration: none;
+  color: white;
+}
+
+.Link:active {
+  text-decoration: underline;
+  color: yellow;
+}
+
+.active {
+  color: #ffcb3e;
+}

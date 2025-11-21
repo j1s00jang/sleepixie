@@ -1,0 +1,15 @@
+.filledButtonContainer {
+    width: 350px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background-color: #ffcb3e;
+    color: var(--Day---Primary-2, #191b21);
+    text-align: center;
+    font-family: "Teachers", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}

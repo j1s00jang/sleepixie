@@ -1,0 +1,124 @@
+.supplementCard {
+  display: flex;
+  align-items: center;
+  background: #292e37;
+  border-radius: 16px;
+  padding: 10px 15px;
+  gap: 16px;
+  width: 370px;
+  min-height: 90px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.cardImage {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  object-fit: cover;
+  background: #fff;
+  flex-shrink: 0;
+}
+
+.cardContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.cardTitle {
+  color: #fff9ec;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 100;
+  margin: 0;
+}
+
+.cardFrequency {
+  color: #fff9ec;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 100;
+  margin: 0;
+  opacity: 0.7;
+}
+
+.addButton {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.1s;
+}
+
+.addButton:hover {
+  transform: scale(1.08);
+}
+
+.supplementCard img[alt="arrow-right"],
+.supplementCard :global(img[alt="arrow-right"]) {
+  background: #7faaff;
+  border-radius: 50%;
+  width: 28px !important;
+  height: 28px !important;
+  flex-shrink: 0;
+}
+
+.selectedCard {
+  display: flex;
+  align-items: center;
+  background: #80a7ff;
+  border-radius: 16px;
+  padding: 10px 15px;
+  gap: 16px;
+  width: 370px;
+  min-height: 90px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.removeButton {
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease;
+}
+
+.removeButton:hover {
+  background: #c82333;
+}
+
+.cardTitle {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  margin: 0;
+}
+
+.cardFrequency {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  margin: 0;
+  opacity: 0.8;
+}
+
+.selectedCard .cardTitle {
+  color: #292e37;
+}
+
+.selectedCard .cardFrequency {
+  color: #292e37;
+  opacity: 0.8;
+}

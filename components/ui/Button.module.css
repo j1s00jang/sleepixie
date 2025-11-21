@@ -1,0 +1,339 @@
+.pageButton {
+  flex-shrink: 0;
+  width: 370px;
+  height: 69px;
+  font-size: 20px;
+  background-color: #292e37;
+  color: #e8e8e8;
+  font-family: Teachers;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  border-radius: 10px;
+  padding: 19px 0 19px 13px;
+  border: 0;
+  text-align: left;
+  display: inline-flex;
+  align-items: center;
+  justify-content: left;
+  gap: 10px;
+  /* button shadow */
+  box-shadow: 1px 1px 3.1px 0px #ffcb3e;
+}
+
+.buttonContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-right: 13px;
+}
+
+.arrowIcon {
+  flex-shrink: 0;
+}
+
+.pageButton span {
+  text-align: left;
+}
+
+.twoButtonContainer {
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+  gap: 1px;
+}
+
+.twoButtonTop {
+  flex-shrink: 0;
+  width: 370px;
+  height: 69px;
+  font-size: 20px;
+  background-color: #292e37;
+  color: #e8e8e8;
+  font-family: Teachers;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  border-radius: 10px 10px 0px 0px;
+  padding: 19px 0 19px 13px;
+  border: 0;
+  text-align: left;
+  display: inline-flex;
+  align-items: center;
+  justify-content: left;
+  /* button shadow */
+  box-shadow: 1px 1px 3.1px 0px #ffcb3e;
+}
+
+.twoButtonBottom {
+  flex-shrink: 0;
+  width: 370px;
+  height: 69px;
+  font-size: 20px;
+  background-color: #292e37;
+  color: #e8e8e8;
+  font-family: Teachers;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  border-radius: 0px 0px 10px 10px;
+  padding: 19px 0 19px 13px;
+  border: 0;
+  text-align: left;
+  display: inline-flex;
+  align-items: center;
+  justify-content: left;
+  /* button shadow */
+  box-shadow: 1px 1px 3.1px 0px #ffcb3e;
+}
+
+.searchContainer {
+  width: 339px;
+  height: 52px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  border-radius: 53px;
+  border: 1px solid #ffcb3e;
+  background: #292e37;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 25px 0 25px 0;
+  padding: 0 15px;
+  position: relative;
+}
+
+.searchContainer input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  color: #fff9ec;
+  font-family: Teachers;
+  font-size: 16px;
+  outline: none;
+  padding-right: 40px;
+}
+
+.searchContainer input::placeholder {
+  color: #fff9ec;
+  opacity: 0.7;
+}
+
+.searchContainer img {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.supplementCard {
+  display: flex;
+  align-items: center;
+  background: #292e37;
+  border-radius: 16px;
+  padding: 10px 15px;
+  gap: 16px;
+  width: 370px;
+  min-height: 90px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.supplementImage {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  object-fit: cover;
+  background: #fff;
+  flex-shrink: 0;
+}
+
+.supplementInfo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.supplementName {
+  color: #fff9ec;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 100;
+  margin: 0;
+}
+
+.supplementFrequency {
+  color: #fff9ec;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 100;
+  margin: 0;
+  opacity: 0.7;
+}
+
+.addButton {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.addButton:hover {
+  opacity: 0.8;
+}
+
+.supplementCard img[alt="arrow-right"],
+.supplementCard :global(img[alt="arrow-right"]) {
+  background: #7faaff;
+  border-radius: 50%;
+  width: 28px !important;
+  height: 28px !important;
+  flex-shrink: 0;
+}
+
+.selectedSupplementCard {
+  display: flex;
+  align-items: center;
+  background: #80a7ff;
+  border-radius: 16px;
+  padding: 10px 27px 10px 10px;
+  gap: 16px;
+  width: 370px; /* or 100% if you want it responsive */
+  min-height: 90px;
+  box-sizing: border-box;
+  margin-left: 16px;
+  margin-top: 20px;
+}
+
+.selectedSupplementName {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  color: #191b21;
+  margin: 0;
+}
+
+.supplementUsage {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  color: #191b21;
+  margin: 30px 0 0 0;
+}
+
+.threeButtonContainer {
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+  gap: 1px;
+  margin-top: 20px;
+}
+
+.threeButtonTop {
+  flex-shrink: 0;
+  width: 370px;
+  height: 69px;
+  font-size: 20px;
+  background-color: #292e37;
+  color: #e8e8e8;
+  font-family: Teachers;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  border-radius: 10px 10px 0px 0px;
+  padding: 19px 0 19px 13px;
+  border: 0;
+  text-align: left;
+  display: inline-flex;
+  align-items: center;
+  justify-content: left;
+  /* button shadow */
+  box-shadow: 1px 1px 3.1px 0px #ffcb3e;
+}
+
+.threeButtonMiddle {
+  flex-shrink: 0;
+  width: 370px;
+  height: 68px;
+  font-size: 20px;
+  font-family: Teachers;
+  background-color: #292e37;
+  color: #e8e8e8;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  text-align: left;
+  display: inline-flex;
+  align-items: center;
+  justify-content: left;
+  border: 0;
+  padding: 19px 0 19px 13px;
+  box-shadow: 1px 1px 3.1px 0px #ffcb3e;
+}
+
+.threeButtonBottom {
+  flex-shrink: 0;
+  width: 370px;
+  height: 69px;
+  font-size: 20px;
+  background-color: #292e37;
+  color: #e8e8e8;
+  font-family: Teachers;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  border-radius: 0px 0px 10px 10px;
+  padding: 19px 0 19px 13px;
+  border: 0;
+  text-align: left;
+  display: inline-flex;
+  align-items: center;
+  justify-content: left;
+  /* button shadow */
+  box-shadow: 1px 1px 3.1px 0px #ffcb3e;
+}
+
+.primaryButton,
+.secondaryButton {
+  font-family: "Teachers", sans-serif;
+  width: 255px;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 30px;
+  margin: 32px 0 0 0;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+  display: block;
+}
+
+.primaryButton {
+  background-color: #80a7ff;
+  color: #191b21;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+}
+
+.secondaryButton {
+  background-color: #ffcb3e;
+  color: #23242a;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+}
+
+.disabledButton {
+  background-color: #1e2026 !important;
+  color: #888 !important;
+  cursor: not-allowed !important;
+  opacity: 0.7;
+}

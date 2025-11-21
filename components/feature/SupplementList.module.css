@@ -1,0 +1,82 @@
+.supplementList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  gap: 16px;
+  box-sizing: border-box;
+}
+
+.loading,
+.error,
+.noResults {
+  text-align: center;
+  color: #fff9ec;
+  padding: 20px;
+  font-family: Teachers;
+  font-size: 16px;
+}
+
+.error {
+  color: #ff6b6b;
+}
+
+.noResults {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+}
+
+.noResults p {
+  margin: 0;
+}
+
+.noResultsSubtext {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.buttonContainer {
+  width: 100%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #191b21;
+  padding: 20px;
+  overflow-y: auto;
+  padding-bottom: 100px;
+  height: 100%;
+  box-sizing: border-box;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+.mainContainer::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+.mobileContainer {
+  width: 402px;
+  height: 874px;
+  min-height: 874px;
+  max-width: 402px;
+  margin: 0 auto;
+  background: #191b21;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  position: relative;
+  /* Simulate device pixel ratio of 3 for iPhone 16 Pro (visual only) */
+  image-rendering: -webkit-optimize-contrast;
+}

@@ -1,0 +1,94 @@
+.characterCard {
+  width: 370px;
+  height: 479px;
+  background-color: #292e37;
+  margin: 30px 0 0 0;
+  padding: 0;
+  border-radius: 5px;
+}
+
+.characterVideo {
+  display: flex;
+  margin: 0;
+  padding: 14px 10px 0 10px;
+}
+
+.characterLevelBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px 0 10px;
+}
+
+.levelNumber {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  margin: 18px 0 18px 0;
+}
+
+.characterLevel {
+  display: flex;
+  flex-direction: row;
+  padding: 0 10px 0 10px;
+  justify-content: space-between;
+}
+
+.levelGoalTitle {
+  color: #e8e8e8;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  margin: 18px 0 0 0;
+}
+
+.levelGoalText {
+  color: #e8e8e8;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  margin: 0;
+}
+
+.levelBar {
+  width: 281px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+.characterCard2 {
+  width: 370px;
+  height: 265px;
+  background-color: #292e37;
+  margin: 30px 0 0 0;
+  padding: 0;
+  border-radius: 5px;
+}
+
+.characterVideo2 {
+  display: flex;
+  margin: 0;
+  padding: 14px 10px 0 10px;
+}
+
+.characterLevelBar2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px 0 10px;
+}
+
+.levelNumber2 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  margin: 12px 0 12px 0;
+}
